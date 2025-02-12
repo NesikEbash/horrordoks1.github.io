@@ -9,9 +9,10 @@
             margin: 0;
             padding: 0;
             background: black;
-            color: #e0e0e0; /* Светло-серый цвет текста */
+            color: #c0c0c0; /* Более тусклый светло-серый цвет текста */
             font-family: 'Montserrat', sans-serif; /* Измененный шрифт */
-            overflow: hidden;
+            overflow-y: auto; /* Позволяет вертикальную прокрутку */
+            height: 100vh; /* Устанавливает высоту вьюпорта */
         }
 
         .background-animation {
@@ -35,6 +36,8 @@
         .content {
             padding: 20px;
             text-align: center;
+            max-width: 800px; /* Ограничивает ширину контента */
+            margin: auto; /* Центрирует контент */
         }
 
         .content h1 {
@@ -74,3 +77,4 @@
     </div>
 </body>
 </html>
+
